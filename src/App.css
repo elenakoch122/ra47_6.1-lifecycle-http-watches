@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  padding: 24px;
+}
+
+.form {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.form__input {
+  display: block;
+  padding: 8px 16px;
+}
+
+.form__label {
+  margin-right: 8px;
+}
+
+.form__btn {
+  align-self: end;
+  padding: 8px 16px;
+}
+
+.watches-list {
+  display: flex;
+  list-style-type: none;
+}
+
+.watches-item {
+  margin-right: 24px;
+}
+
+.watch {
+
+}
+
+.watch__title {
+  position: relative;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.watch__close {
+  position: absolute;
+  top: 24px;
+  right: -5px;
+  transition: .3s;
+  cursor: pointer;
+}
+
+.watch__close:hover {
+  color: red;
+}
+
+.watch__body {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #000;
+  border-radius: 50%;
+}
+
+.watch__hourHand {
+  width: 50px;
+  height: 1px;
+  background-color: #000;
+}
+
+.watch__minuteHand {
+  width: 25px;
+  height: 1px;
+  background-color: #000;
+}
+
+.watch__secondHand {
+  width: 50px;
+  height: 1px;
+  background-color: red;
+}
