@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ra47_6.1-lifecycle-http-watches/static/css/main.232eb83e.css",
+    "main.js": "/ra47_6.1-lifecycle-http-watches/static/js/main.57fcf033.js",
+    "static/js/787.4640138f.chunk.js": "/ra47_6.1-lifecycle-http-watches/static/js/787.4640138f.chunk.js",
+    "index.html": "/ra47_6.1-lifecycle-http-watches/index.html",
+    "main.232eb83e.css.map": "/ra47_6.1-lifecycle-http-watches/static/css/main.232eb83e.css.map",
+    "main.57fcf033.js.map": "/ra47_6.1-lifecycle-http-watches/static/js/main.57fcf033.js.map",
+    "787.4640138f.chunk.js.map": "/ra47_6.1-lifecycle-http-watches/static/js/787.4640138f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.232eb83e.css",
+    "static/js/main.57fcf033.js"
+  ]
+}
