@@ -19,7 +19,7 @@ export default function WatchForm({ addWatch }) {
       </label>
 
       <label className="form__label" htmlFor="timeZone">Временная зона
-        <input className="form__input" type="number" id="timeZone" value={timeZone} onChange={(e) => setTimeZone(e.target.value)} required />
+        <input className="form__input" type="number" id="timeZone" value={timeZone} onChange={(e) => setTimeZone(e.target.value)} required min="-12" max="12"/>
       </label>
 
       <button className="form__btn">Добавить</button>

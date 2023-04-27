@@ -10,10 +10,14 @@ function App() {
     setWatchesList(prev => [...prev, newWatch]);
   };
 
+  const deleteWatch = (id) => {
+    setWatchesList(prev => prev.filter(w => w.id !== id));
+  };
+
   return (
     <div className="App">
       <WatchForm addWatch={addWatch} />
-      <WatchesList watchesList={watchesList} />
+      <WatchesList watchesList={watchesList} deleteWatch={deleteWatch} />
     </div>
   );
 }
