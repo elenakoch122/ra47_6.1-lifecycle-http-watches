@@ -17,7 +17,7 @@ export default function Watch({ watch, deleteWatch }) {
     }, 0);
 
     return () => clearInterval(timeout);
-  }, []);
+  }, [diffHour]);
 
   return (
     <div className="watch">
